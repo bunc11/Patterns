@@ -3,7 +3,7 @@ class BiNode(object):
     representing operator node object
     """
     def __init__(self):
-        self.op = ""
+        self.op = "" # op aka operator
         self.leftchild = None
         self.rightchild = None
 
